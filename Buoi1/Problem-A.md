@@ -17,5 +17,5 @@ $1 \leqslant n \leqslant 20$
 
 ### Example
 
-<p align="center">![Example](image.png)</p>
+<p align="center"><img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/69bdbd08-4126-4d03-b929-5ddc84904f82" /></p>
 
