@@ -9,11 +9,11 @@ The first line consists of an integer $t$, the number of test cases. Then for ea
 ### Output
 For each test case find whether the maze is "valid" or "invalid".
 ### Constraints
-$1 \leqslant t \leqslant 10000$
+- $1 \leqslant t \leqslant 10000$
 
-$1 \leqslant m \leqslant 20$
+- $1 \leqslant m \leqslant 20$
 
-$1 \leqslant n \leqslant 20$
+- $1 \leqslant n \leqslant 20$
 
 ### Example
 <table align="center" width="100%">
