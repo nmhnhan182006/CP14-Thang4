@@ -16,4 +16,6 @@ $1 \leqslant m \leqslant 20$
 $1 \leqslant n \leqslant 20$
 
 ### Example
-<p align = "center"><![Example](image.png) /></p>
+
+<p align="center">![Example](image.png)</p>
+
