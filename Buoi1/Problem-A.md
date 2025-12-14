@@ -16,15 +16,13 @@ $1 \leqslant m \leqslant 20$
 $1 \leqslant n \leqslant 20$
 
 ### Example
-<center>
-<div style="display: flex; justify-content: center;">
-<table style="width:85%; border-collapse: collapse;">
+<table align="center" width="100%">
 <tr>
-<th align="center" style="width:55%; border-bottom: 2px solid #333; padding: 15px; background-color: #f9f9f9;">Input</th>
-<th align="center" style="width:45%; border-bottom: 2px solid #333; padding: 15px; background-color: #f9f9f9;">Output</th>
+<th width="60%" align="center">Input</th>
+<th width="40%" align="center">Output</th>
 </tr>
 <tr>
-<td valign="top" style="padding: 12px; border-right: 1px solid #ddd;">
+<td valign="top">
 <pre><code>
 6
 4 4
@@ -54,7 +52,7 @@ $1 \leqslant n \leqslant 20$
 #.##
 </code></pre>
 </td>
-<td valign="top" style="padding: 12px; text-align: center;">
+<td valign="top">
 <pre><code>
 valid
 valid
@@ -66,5 +64,4 @@ invalid
 </td>
 </tr>
 </table>
-</div>
-</center>
+
