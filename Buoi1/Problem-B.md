@@ -9,4 +9,4 @@ Print one integer: the number of rooms.
 ### Constraints
 - $1 \leqslant n,m \leqslant 1000$
 ### Example
-<p align = "center">![alt text](image-1.png) </p>
+<p align = "center"><img width="1431" height="323" alt="Image" src="https://github.com/user-attachments/assets/9d484365-d4b0-40f8-a9a9-c58d5bf90561" /></p>
