@@ -1,5 +1,7 @@
 # Lời giải
-Trước hết, một mê cung hợp lệ mà một mê cung mà ở đó chỉ có duy nhất một lối vào và một lối ra. Do đó ta sẽ viết hàm `find_entrance()` để tìm và lưu giữ các lối vào/ra của mê cung vào vector $entrance$
+Trước hết, một mê cung hợp lệ mà một mê cung mà ở đó chỉ có duy nhất một lối vào và một lối ra. Do đó ta sẽ viết hàm `find_entrance()` để tìm và lưu giữ các lối vào/ra của mê cung vào vector $entrance$.
+
+**Lưu ý:** Ta sẽ duy trì trạng thái viếng thăm của vị trí $\left(i, j \right)$ trong mê cung bằng một mảng $visited$ được khai báo global.
 ```cpp
 void find_entrance(vector<pair<int, int>>& entrance, const vector<vector<char>>& grid, int m, int n) {
     for (int i = 0; i < m; ++i) {
