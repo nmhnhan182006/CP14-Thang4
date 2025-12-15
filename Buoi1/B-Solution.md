@@ -1,7 +1,7 @@
 # Lời giải
 Vì mỗi căn phòng được ngăn cách bởi các bức tường (`#`), và mỗi phòng là một tập hợp các dấu `.` liên tiếp theo các hướng trái, phải, lên, hoặc xuống. Ta đưa bài toán về đếm số các thành phần `.` liên thông với nhau trong bản đồ có kích thước $n \times m$.
 
-Ta có thể sử dụng thuật toán DFS để giải quyết bài toán này. Do ta có bốn hướng đi khả thi (trái, phải, lên, xuống) ta duy trì hai mảng di chuyển $dx[]$ và $dy[]$ để duy trì các hướng đi.
+Ta có thể sử dụng thuật toán DFS để giải quyết bài toán này. Do ta có bốn hướng đi khả thi (trái, phải, lên, xuống) ta tạo hai mảng di chuyển $dx[]$ và $dy[]$ để duy trì các hướng đi.
 
 ```cpp
 int dx[] = {-1, 1, 0, 0};
