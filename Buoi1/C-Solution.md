@@ -28,13 +28,13 @@ void dfs(int u) {
 ```
 Sau khi đã DFS, ta phải cần kiểm tra xem liệu rằng số đường đi trong chu trình có bằng $m + 1$ hay không? Nếu có, điều đó có nghĩa tồn tại chu trình cần tìm, ngược lại thì không.
 ```cpp
-    dfs(1);
-    if (int(trace.size()) != m + 1) {
-        cout << "IMPOSSIBLE" << '\n';
-        return 0;
-    }
-    for (auto x : trace)
-        cout << x << ' ';
+dfs(1);
+if (int(trace.size()) != m + 1) {
+    cout << "IMPOSSIBLE" << '\n';
+    return 0;
+}
+for (auto x : trace)
+    cout << x << ' ';
 ```
 Độ phức tạp của bài toán này là: $O\left( n + m \times \log n\right)$.
 
