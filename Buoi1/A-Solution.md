@@ -35,7 +35,7 @@ void find_entrance(vector<pair<int, int>>& entrance, const vector<vector<char>>&
 
 Với mỗi lần tìm kiếm, nếu độ dài của vector $entrance$ khác $2$ điều đó chứng tỏ mê cung đó không hợp lệ. Ngược lại, ta tiếp tục kiểm tra xem liệu rằng có tồn tại ít nhất một đường đi từ lối vào mê cung đến lối ra của mê cung hay không.
 
-Ý tưởng bài toán rất đơn giản, ta sử dụng đến thuật toán DFS để kiểm tra. Ta sẽ bắt đầu DFS từ vị trí lối vào của mê cung, với mỗi vị trí $\left(i, j\right)$ trong mê cung $M$, nếu $M[i][j] =$ '.', ta sẽ DFS ra xung quanh vị trí $\left(i, j \right)$ đó. 
+Ý tưởng bài toán rất đơn giản, ta sử dụng đến thuật toán DFS để kiểm tra. Ta sẽ bắt đầu DFS từ vị trí lối vào của mê cung, với mỗi vị trí $\left(i, j\right)$ trong mê cung $M$, nếu $M[i][j] ='.'$ , ta sẽ DFS ra xung quanh vị trí $\left(i, j \right)$ đó. 
 
 **Lưu ý:** Ta chỉ có thể đi trái, phải, lên, hoặc xuống. Do đó ta sẽ tạo hai mảng di chuyển $dx[]$ và $dy[]$ để duy trì các vị trí qua trái, phải, lên, hoặc xuống
 ```cpp
